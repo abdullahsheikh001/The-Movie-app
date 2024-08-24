@@ -1,0 +1,45 @@
+name: movie_app
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Adds the Cupertino Icons font to your application for iOS-style icons
+  cupertino_icons: ^1.0.8
+  animated_splash_screen: ^1.3.0
+  lottie: ^3.1.2
+  carousel_slider: ^5.0.0
+  motion_tab_bar: ^2.0.4
+  curved_navigation_bar: ^1.0.6
+  rive: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints to encourage good coding practices
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Specify assets to be included in the app
+  assets:
+    - assets/images/
+
+  # Uncomment and customize to add custom fonts to your application
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
